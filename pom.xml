@@ -34,7 +34,13 @@
                 <version>${platform.version}</version>
                 <scope>provided</scope>
             </dependency>
-
+            <dependency>
+                <!-- Support library (aka compatibility library) from the central repository as well
+                note that this uses default scope (NOT provided) since the library will need to be added to your apk -->
+                <groupId>com.google.android</groupId>
+                <artifactId>support-v4</artifactId>
+                <version>r6</version>
+            </dependency>
             <!-- Androlog is a logging and reporting library for Android -->
             <dependency>
                 <groupId>de.akquinet.android.androlog</groupId>
