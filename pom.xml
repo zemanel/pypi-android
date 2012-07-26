@@ -12,6 +12,8 @@
     <modules>
         <module>pypi-android</module>
         <module>pypi-android-it</module>
+        <module>aXMLRPC</module>
+        <module>pypi-java-xmlrpc-client</module>
     </modules>
 
     <properties>

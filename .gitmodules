@@ -1,0 +1,6 @@
+[submodule "aXMLRPC"]
+	path = aXMLRPC
+	url = git://github.com/timroes/aXMLRPC.git
+[submodule "pypi-java-xmlrpc-client"]
+	path = pypi-java-xmlrpc-client
+	url = git@github.com:zemanel/pypi-java-xmlrpc-client.git
