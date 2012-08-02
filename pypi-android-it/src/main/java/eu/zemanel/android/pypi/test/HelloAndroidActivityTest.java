@@ -3,14 +3,14 @@ package eu.zemanel.android.pypi.test;
 import android.test.ActivityInstrumentationTestCase2;
 import eu.zemanel.android.pypi.*;
 
-public class HelloAndroidActivityTest extends ActivityInstrumentationTestCase2<HelloAndroidActivity> {
+public class HelloAndroidActivityTest extends ActivityInstrumentationTestCase2<UpdatedReleasesActivity> {
 
     public HelloAndroidActivityTest() {
-        super("eu.zemanel.android.pypi", HelloAndroidActivity.class);
+        super("eu.zemanel.android.pypi", UpdatedReleasesActivity.class);
     }
 
     public void testActivity() {
-        HelloAndroidActivity activity = getActivity();
+        UpdatedReleasesActivity activity = getActivity();
         assertNotNull(activity);
     }
 }

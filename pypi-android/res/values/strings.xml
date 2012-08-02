@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello pypi-android!</string>
-    <string name="app_name">pypi-android</string>
+    <string name="app_name">Pypi for Android</string>
+    <string name="hello">hi!</string>
+    <string name="menu_search">Search</string>
+    <string name="search_hint">Search</string>
+    <string name="search_edit">python package name</string>
+    <string name="showing_since">Showing since</string>
 </resources>
